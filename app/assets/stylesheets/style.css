@@ -1,0 +1,72 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), image_url('jumbo-bg.jpg');
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+/* Navbar custom color */
+/* change the background color */
+.navbar-custom {
+  background-color: #800000;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+	color: rgba(255,255,255,.8);
+	padding: 0.8rem 1rem;
+
+}
+
+/* change the link color and add padding for height */
+.navbar-custom .navbar-nav .nav-link {
+	color: rgba(255,255,255,.5);
+	padding: 1rem 1rem;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+	color: #ffffff;
+	background-color: #A52A2A; /* add background-color to active links */
+}
+
+/* custom button */
+.btn-primary.btn-register {
+  background-color: #800000;
+  border-color: #800000;
+}
+
+.btn-primary.btn-write-story {
+  background-color: #800000;
+  border-color: #800000;
+}
